@@ -1,3 +1,19 @@
+# WorkPlace
+
+## requirement
+1. PHP
+2. web server (e.g. nginx, apache)
+3. database
+4. composer
+
+## Installation
+
+1. unzipped the file
+2. open command line and run composer install and composer update
+3. run php artisan migrate and php artisan db:seed
+
+
+
 # Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)

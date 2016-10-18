@@ -11,6 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/', 'PropertyController@index');
+Route::group(['prefix' => 'property'], function () {
+    Route::get('/', 'PropertyController@all');
+    Route::get('/{action}/{key1}/{key2?}', 'PropertyController@search');
 });

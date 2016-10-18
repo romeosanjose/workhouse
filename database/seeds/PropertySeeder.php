@@ -24,7 +24,6 @@ class PropertySeeder extends Seeder
           array('name'=>'The Skyscape','price'=>263604,'bedrooms'=>3,'bathrooms'=>2,'storeys'=>2,'garages'=>2),
           array('name'=>'The Clifton','price'=>386103,'bedrooms'=>3,'bathrooms'=>2,'storeys'=>1,'garages'=>1),
           array('name'=>'The Geneva','price'=>390600,'bedrooms'=>4,'bathrooms'=>3,'storeys'=>2,'garages'=>2)
-
        ));
     }
 }

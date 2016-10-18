@@ -15,12 +15,13 @@ class AddPropertyTable extends Migration
       Schema::create('property', function (Blueprint $table) {
           $table->increments('id');
           $table->string('name');
-          $table->float('price');
+          $table->integer('price');
           $table->integer('bedrooms');
           $table->integer('bathrooms');
           $table->integer('storeys');
           $table->integer('garages');
           $table->timestamps();
+          $table->index('name');
       });
     }
 
